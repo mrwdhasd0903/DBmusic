@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*重置浏览器默认样式*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+/*全局控制*/
+body{
+	background:#fff9ed;
+	font-family:"微软雅黑";
+	font-size:14px;
+}
+
+a:link,a:visited{
+	text-decoration:none;
+	color:#fff;
+	font-size:16px;
+}
+
+#header{
+	width:100%;
+	height:128px;
+	background:url(../images/head_bg.jpg) repeat-x;
+	border-bottom:3px solid #d5d5d5;
+}
+
+.nav{
+	width:980px;
+	margin:0 auto;
+}
+
+li{float:left;}
+
+li a{
+	display:inline-block;
+	height:99px;
+	width:130px;
+	text-align:center;
+	line-height:70px;
+}
+
+li.dianguo{background-image:url(../images/xuanfu.png)}
+
+li a:hover{background:url(../images/xuanfu.png) center center;}
+
+#content{width:980px; margin:0 auto;}
+
+#beijing{background:url(../images/bg.jpg); background-attachment:fixed; background-size:100% 100%; }
+
+#footer{
+	width:100%;
+	height:103px;
+	background:#020202;
+	color:#fff;
+	line-height:26px;
+	text-align:center;
+	padding-top:50px;
+	margin-top:0px;
+	margin:0 auto;
+}
+
+.one{height:30px;}
+
+.jiange{height:20px;}
+
+.mojiange{height:50px;}
+
+table .one{font-size:14px; color:#CCC; font-family:"幼圆";}
+
+.two{font-size:20px; color:#999; font-family:"楷体";}
+
+#beijing{margin:0 auto;}
+
+.style_bg{
+	width:908px;
+	height:330px;
+	padding:10px 36px 5px;
+}
+
+.style{
+	width:892px;
+	height:314px;;
+	padding:8px 10px 8px 6px;
+}
+
+.style dl{
+	width:279px;
+	height:313px;
+	float:left;
+	margin-left:4px;
+}
+
+.style .third{
+	width:322px;
+}
+
+.style dt,.style dd{
+	float:left
+}
+
+.style .left1,.style .left3,.style .center1,.style .center3,.style .right1{
+	width:162px;
+}
+
+.style .left2,.style .left4,.style .center2,.style .center4,.style .right2{
+	width:117px;
+}
+
+.style .left1,.style .left2,.style .center1,.style .center2{
+	margin-bottom:8px;
+}
+
+.style .left1{
+	height:169px;
+	background:url(../images/pic01.jpg) no-repeat;
+}
+
+.style .left2{
+	height:169px;
+	line-height:169px;
+}
+
+.style .left3{
+	height:137px;
+	background:url(../images/pic02.jpg) no-repeat;
+}
+
+.style .left4{
+	height:137px;
+	line-height:137px;
+}
+
+.style .center1{
+	height:117px;
+	background:url(../images/pic03.jpg) no-repeat;
+}
+
+.style .center2{
+	height:117px;
+	line-height:117px;
+}
+
+.style .center3{
+	height:188px;
+	background:url(../images/pic04.jpg) no-repeat;
+}
+
+.style .center4{
+	height:188px;
+	line-height:188px;
+}
+
+.style .right1{
+	width:205px;
+	height:314px;
+	background:url(../images/pic05.jpg) no-repeat;
+}
+
+.style .right2{
+	height:314px;
+	line-height:314px;
+}
+
+.style a{
+	display:block;
+	background:#242424;
+	text-align:center;
+}
+
+h2{
+	width:259px;
+	height:45px;
+	font-size:30px;
+	font-weight:100;
+	line-height:45px;
+	text-align:center;
+	color:#fff;
+	margin-top:80px;
+	margin:0 auto;
+}
+
+.current{
+	width:958px;
+	height:1000px;
+	border:0px solid #dcd2ba;
+	padding:13px 0 0 20px;
+}
+
+.current dl{
+	width:229px;
+	height:330px;
+	border:0px solid #dcd2ba;
+	float:left;
+	margin-right:5px;
+}
+
+.current dt{
+	width:229px;
+	height:212px;
+	border-bottom:1px solid #dcd2ba;
+}
+
+.current01{
+	width:229px;
+	height:50px;
+	background:#000;
+	line-height:50px;
+	color: #FFF;
+	font-size:22px;
+	text-align:center;
+}
+
+
+.match_1{
+	background:url(../images/match01.png) center center no-repeat;
+}
+
+.match_2{
+	background:url(../images/match02.png) center center no-repeat;
+}
+
+.match_3{
+	background:url(../images/match03.png) center center no-repeat;
+}
+
+.match_4{
+	background:url(../images/match04.png) center center no-repeat;
+}
+
+.match_5{
+	background:url(../images/match05.png) center center no-repeat;
+}
+
+.match_6{
+	background:url(../images/match06.png) center center no-repeat;
+}
+
+.match_7{
+	background:url(../images/match07.png) center center no-repeat;
+}
+
+.match_8{
+	background:url(../images/match08.png) center center no-repeat;
+}
+
+#bt{font-family:Verdana, Geneva, sans-serif; color:#FFF;}
+
+#nr a{color:#CCC;}
+
+#nr a:hover, #by a:hover{color:#999;}
+
+#qbgd,#zxsj{background-color:#666; color:#CCC; font-family:"微软雅黑"; font-size:20px;}
+
+
+#ym{background-color:#999;}
+
+.ym{color:#FFF;}
+
+.ym a:hover{color:#999;}
+
+#bfl{font-size:15px;}
+
+#qian{ background-color: #666; font-size:14px; color: #CCC;}
+
+
+/*轮播*/
+  #container{width:1080px; height:432px; position:relative; border:0px; overflow:hidden; margin:0 auto;}
+  #list{width:4200px; height:400px; position:absolute; z-index:1;}
+  #list img{float:left;}
+  #buttons{position:absolute; height:10px; width:100px; z-index:2; bottom:20px; left:490px;}
+  #buttons span{cursor:pointer;/*假超链接样式*/ float:left; width:10px; height:10px;     border-radius:10px; background:#333; margin-right:5px;}
+  #buttons .on{background:#CCC;}
+  .arrow{cursor:pointer; display:none; line-height:39px; text-align:center; font-size:36px; 
+         font-weight:bold; width:40px; height:40px;  position:absolute; z-index:2; top:180px;
+         background-color: RGBA(0,0,0,.3); color:#fff;}
+   .arrow:hover{background-color:RGBA(0,0,0,.7);}
+   #container:hover .arrow{display:block;}
+   #prev{left:20px;}
+   #next{right:20px;}
+   
+/*登陆*/
+.dlzc{width:468px;height:468px;margin:0px auto;background:url(../images/yuan.png) no-repeat;}
+.dlzc_top{ height:200px;width:468px;}
+.dlzc_main{width:400px;height:180px;margin:0 25px;}
+.dlzc_m_1{width:290px;height:100px;padding:60px 55px 20px 55px;}
+.ur{height:37px;line-height:37px;border:0;color:#666;width:236px;margin:4px 28px;background:url(../images/zhanghao.png) no-repeat;padding-left:10px;font-size:12px;font-family:Arial, Helvetica, sans-serif;}
+.pw{height:37px;line-height:37px;border:0;color:#666;width:236px;margin:4px 28px;background:url(../images/mima.png) no-repeat;padding-left:10px;font-size:12px;font-family:Arial, Helvetica, sans-serif;}
+.bn{width:330px;height:72px;background: url(../images/yuan2.png) no-repeat;border:0;display:block;font-size:18px;color:#FFF;font-family:Arial, Helvetica, sans-serif;font-weight:bolder;cursor:pointer;}
+.dlzc_foot{height:80px;width:330px;padding: 6px 68px 0 68px;}
+
+
+#jizhi{font-family:"微软雅黑"; color:#CCC; font-size:110px;}
+
